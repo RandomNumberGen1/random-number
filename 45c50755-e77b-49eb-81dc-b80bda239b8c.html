@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 24.8.1.2 (Linux)"/>
+	<meta name="author" content="Muhammad Tariq"/>
+	<meta name="created" content="2025-02-15T03:58:00"/>
+	<meta name="changedby" content="Muhammad Tariq"/>
+	<meta name="changed" content="2025-02-15T03:58:00"/>
+	<meta name="AppVersion" content="16.0000"/>
+	<style type="text/css">
+		@page { size: 8.5in 11in; margin: 1in }
+		p { line-height: 115%; text-align: left; orphans: 2; widows: 2; margin-bottom: 0.1in; direction: ltr; background: transparent }
+	</style>
+</head>
+<body lang="en-CA" link="#000080" vlink="#800000" dir="ltr"><p style="line-height: 100%; margin-bottom: 0.19in">
+<font face="Times New Roman, serif">&lt;!DOCTYPE html&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif">&lt;html lang=&quot;en&quot;&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif">&lt;head&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; <font face="Times New Roman, serif">&lt;meta
+charset=&quot;UTF-8&quot;&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; <font face="Times New Roman, serif">&lt;meta
+name=&quot;viewport&quot; content=&quot;width=device-width,
+initial-scale=1.0&quot;&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; <font face="Times New Roman, serif">&lt;title&gt;Random
+Number Generator&lt;/title&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; <font face="Times New Roman, serif">&lt;style&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">body
+{</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">font-family:
+Arial, sans-serif;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">text-align:
+center;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">margin-top:
+50px;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">background-color:
+#f4f4f4;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">}</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">h1 {</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">color:
+#333;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">}</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">#number
+{</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">font-size:
+50px;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">font-weight:
+bold;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">color:
+#222;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">margin:
+20px 0;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">}</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">#winMessage
+{</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">display:
+none;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">font-size:
+40px;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">font-weight:
+bold;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">color:
+green;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">margin-top:
+20px;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">}</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">button
+{</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">font-size:
+20px;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">padding:
+10px 20px;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">background-color:
+#008cba;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">color:
+white;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">border:
+none;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">cursor:
+pointer;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">margin-top:
+20px;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">}</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">button:hover
+{</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">background-color:
+#005f73;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">}</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">.win
+{</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">color:
+#fff;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">background-color:
+#28a745;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">padding:
+10px;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">border-radius:
+10px;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">display:
+inline-block;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">}</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; <font face="Times New Roman, serif">&lt;/style&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif">&lt;/head&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif">&lt;body&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<br/>
+<br/>
+
+</p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; <font face="Times New Roman, serif">&lt;h1&gt;Random
+Number Generator&lt;/h1&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; <font face="Times New Roman, serif">&lt;p&gt;Click the
+button to generate a number from 1 to 1000.&lt;/p&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp;&nbsp; &nbsp;</p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; <font face="Times New Roman, serif">&lt;div
+id=&quot;number&quot;&gt;???&lt;/div&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; <font face="Times New Roman, serif">&lt;button
+onclick=&quot;generateNumber()&quot;&gt;Generate Number&lt;/button&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<br/>
+<br/>
+
+</p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; <font face="Times New Roman, serif">&lt;div
+id=&quot;winMessage&quot; class=&quot;win&quot;&gt;<font face="Apple Color Emoji">🎉</font>
+You Win! <font face="Apple Color Emoji">🎉</font>&lt;/div&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<br/>
+<br/>
+
+</p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; <font face="Times New Roman, serif">&lt;script&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">function
+generateNumber() {</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">var
+randomNumber = Math.floor(Math.random() * 1000) + 1;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<font face="Times New Roman, serif">document.getElementById(&quot;number&quot;).textContent
+= randomNumber;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<br/>
+<br/>
+
+</p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">if
+(randomNumber === 361) {</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<font face="Times New Roman, serif">document.getElementById(&quot;winMessage&quot;).style.display
+= &quot;block&quot;;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">}
+else {</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<font face="Times New Roman, serif">document.getElementById(&quot;winMessage&quot;).style.display
+= &quot;none&quot;;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">}</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; &nbsp; &nbsp; <font face="Times New Roman, serif">}</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+&nbsp; &nbsp; <font face="Times New Roman, serif">&lt;/script&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<br/>
+<br/>
+
+</p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif">&lt;/body&gt;</font></p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif">&lt;/html&gt;</font></p>
+<p style="margin-bottom: 0.11in"><br/>
+<br/>
+
+</p>
+</body>
+</html>
